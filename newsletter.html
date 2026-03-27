@@ -285,6 +285,191 @@
       <div class="issue-year-label">2026년</div>
       <div class="issue-list">
 
+        <!-- Issue 07 -->
+        <div>
+          <div class="issue-row" onclick="toggleIssue('iss07')">
+            <div class="issue-num">07</div>
+            <div class="issue-meta">
+              <div class="issue-badge">
+                <span class="issue-tag tag-eta">ETA 인사이트</span>
+                <span class="issue-date">2026. 03. 27</span>
+              </div>
+              <div class="issue-title">기업 가격을 결정하는 건 매출이 아니다 — 배수를 결정하는 3가지 구조</div>
+              <div class="issue-excerpt">같은 매출 5억, 하나는 3억에 팔리고 하나는 30억에 팔린다. 그 차이를 만드는 건 매출이 아니라 구조다.</div>
+            </div>
+            <div class="issue-toggle" id="toggle-iss07">읽기 <span class="arrow">›</span></div>
+          </div>
+          <div class="issue-content" id="iss07">
+            <div class="issue-body">
+              <h3>기업 가격은 매출이 아니라 '구조'가 결정한다</h3>
+              <p>지난 호에서 업종 선택의 3가지 필터를 이야기했다. 업종을 좁혔다면, 이제 두 번째 질문이 남는다.</p>
+              <p><strong>이 기업, 얼마짜리인가 — 그리고 왜 그 가격인가.</strong></p>
+
+              <h4>같은 매출, 다른 가격</h4>
+              <p>두 기업이 있다. 둘 다 연 매출 5억 원, 영업 기간 10년, 같은 업종이다. 직원 수도 비슷하고, 지역도 같다.</p>
+              <p>A기업은 3억 원에 팔렸다. B기업은 30억 원에 팔렸다.</p>
+              <p>가격이 10배 차이 나는 이유가 뭘까? 매출이 같은데.</p>
+              <p>이걸 이해하지 못하면, 3억짜리 기업을 5억에 사거나, 30억짜리 기업을 보고 "너무 비싸다"고 지나치는 실수를 반복하게 된다.</p>
+              <p style="color:var(--gold-d);font-size:0.85rem;"><em>이 수치는 개념 설명을 위한 가상 사례입니다.</em></p>
+
+              <h4>가격은 어떻게 결정되는가</h4>
+              <p>기업 가격은 단순하다. 공식은 하나다.</p>
+              <blockquote><strong>기업가치 = 현금흐름 지표 × 배수(멀티플)</strong></blockquote>
+              <p>여기서 '현금흐름 지표'가 두 가지로 나뉜다.</p>
+              <ul>
+                <li><strong>SDE(소유자재량이익)</strong>: 소규모 기업(연매출 약 10억 원 이하)에 주로 쓴다. "이 기업이 한 해 동안 소유자의 주머니에 실제로 넣어준 돈"이다.</li>
+                <li><strong>EBITDA</strong>: 중대형 기업에 주로 쓰는 지표다. 인건비·임대료 같은 운영비를 뺀 뒤 현금 창출력만 본다.</li>
+              </ul>
+              <p>그리고 그 숫자에 <strong>배수(멀티플)</strong>를 곱해서 가격이 나온다. 2025년 미국 소규모 기업 실거래 데이터 9,586건 분석에 따르면, 평균 SDE 멀티플은 <strong>2.61배</strong>였다. 하지만 업종과 구조에 따라 배수는 극단으로 갈린다. 자동세차소는 4.99배, 소규모 법률사무소는 1.96배였다. 배수가 2.5배 넘게 차이 난다.</p>
+              <p style="color:var(--gold-d);font-size:0.85rem;"><em>미국 시장 기준 데이터입니다. 한국 시장의 정확한 배수는 다를 수 있으나, 구조의 논리는 동일하게 적용됩니다.</em></p>
+
+              <h4>배수를 결정하는 3가지 핵심 요인</h4>
+              <p><strong>① 소유자 의존도 — 대표가 없어도 굴러가는가</strong></p>
+              <p>가장 결정적인 요인이다. 대표가 영업, 납품, 고객 관계의 핵심을 혼자 쥐고 있다면, 인수자에게 그 기업은 '사람을 산 것'이지 '기업을 산 것'이 아니다. 소유자 없이 표준화된 프로세스로 운영되는 기업은 배수가 높다.</p>
+              <p><strong>② 반복 수익 비율 — 이번 달 매출을 다음 달도 기대할 수 있는가</strong></p>
+              <p>구독 계약, 유지보수 계약, 재구매율이 높은 소비재. 매달 예측 가능한 수익이 들어오는 구조는 인수자의 위험을 줄여준다. 위험이 낮을수록 배수는 올라간다.</p>
+              <p><strong>③ 재무 투명성 — 숫자를 신뢰할 수 있는가</strong></p>
+              <p>3년치 재무제표가 깔끔하게 정리되어 있고, 세금 신고와 장부가 일치하며, 비용 항목이 명확하게 분류된 기업은 협상 테이블에서 훨씬 유리한 위치에 선다. 재무 인프라를 갖추지 못한 기업은 할인된 멀티플이 적용된다.</p>
+
+              <h4>실전 체크 — 이 기업, 높은 배수를 받을 수 있는가</h4>
+              <ol>
+                <li><strong>대표가 2주간 자리를 비워도 매출이 유지되는가?</strong> → 그렇다면 소유자 의존도 낮음.</li>
+                <li><strong>전체 매출 중 반복·계약 매출의 비율이 50% 이상인가?</strong> → 수익 예측 가능성 높음.</li>
+                <li><strong>상위 고객 1명이 전체 매출의 30% 이상을 차지하는가?</strong> → 고객 집중도 위험. 배수에 불리.</li>
+                <li><strong>최근 3년 재무제표가 세무사 확인본으로 제공되는가?</strong> → 없으면 배수 협상 근거가 약해진다.</li>
+                <li><strong>대표 외에 실무를 독립적으로 처리할 수 있는 직원이 있는가?</strong> → 없다면 운영 공백 위험 높음.</li>
+              </ol>
+              <p>참고로 미국 실거래 데이터에서 호가의 <strong>약 85% 수준</strong>에서 최종 거래가 이루어졌다. 처음부터 좋아 보이는 숫자에 혹하지 말 것. 협상 여지가 있다.</p>
+
+              <blockquote>매출이 아니라 현금흐름을 봐라. 현금흐름이 아니라 구조를 봐라. 구조가 배수를 결정하고, 배수가 가격을 결정한다.</blockquote>
+
+              <hr style="border:none;border-top:1px solid var(--border-light);margin:2rem 0;">
+              <h4>이번 주 주목할 뉴스</h4>
+
+              <p><strong>① 중기부, 2026년 M&A 활성화 지원사업 — 가치평가 비용 최대 60% 지원</strong> <em>(브릿지코드 M&A센터, 2026-03-16)</em></p>
+              <p>혁신 벤처기업 기준 가치평가 비용 60%(최대 2,000만 원), 기업실사 비용 50%(최대 3,000만 원)를 지원한다. 매도자가 공인 가치평가를 받은 상태로 나온다는 의미다. 협상 테이블이 투명해진다.</p>
+
+              <p><strong>② 중기부, 기업승계 M&A 컨설팅 사업 추진 — 기초 100개사·종합 40개사 선정</strong> <em>(스타트업레시피, 2026-03-24)</em></p>
+              <p>후계자 없는 중소기업의 M&A 준비를 돕는 컨설팅 사업을 가동한다. 자료가 정리되고 가치평가가 이루어진 기업은 인수자 입장에서도 검토하기 훨씬 쉬워진다.</p>
+
+              <hr style="border:none;border-top:1px solid var(--border-light);margin:2rem 0;">
+              <h4>자동세차소 vs 법률사무소 — 수익은 같고, 가격은 2.5배 다르다</h4>
+              <p>같은 연 SDE $200,000(약 2억 9천만 원). 하나는 자동세차소, 하나는 소규모 법률사무소다.</p>
+              <ul>
+                <li>자동세차소: SDE 멀티플 <strong>4.99배</strong> → 약 $100만(약 14억 5천만 원)</li>
+                <li>소규모 법률사무소: SDE 멀티플 <strong>1.96배</strong> → 약 $39만(약 5억 7천만 원)</li>
+              </ul>
+              <p>수익은 같다. 가격은 2.5배 차이다. 이유는 단 하나다. <strong>"인수 후 당신이 그 기업에 몇 시간을 써야 하는가."</strong></p>
+              <p>자동세차소는 소유자가 없어도 굴러간다. 법률사무소는 대표 변호사가 곧 상품이다. 인수자 입장에서 자동세차소는 '기업을 산 것'이고, 법률사무소는 '사람을 산 것'에 가깝다. 배수는 그 차이를 숫자로 표현한 것이다.</p>
+              <blockquote>매물을 볼 때 한 가지만 물어보면 된다. "내가 없어도 이 기업이 한 달을 버틸 수 있는가?"</blockquote>
+
+              <div class="content-footer">
+                <strong>출처</strong>
+                <ul>
+                  <li>EBIT Community, "What Small Businesses Actually Sell For: SDE Multiples vs. List Price", 2025-11-14</li>
+                  <li>jeneshmakesdeals.com, "2026 Business Valuation Multiples by Industry", 2026-01-23</li>
+                  <li>EINEdge, "Why Two Businesses with the Same Revenue Sell for Different Prices", 2026-03-19</li>
+                  <li>BDO, "How to Navigate the 2026 M&A Landscape", 2026-03-10</li>
+                  <li>브릿지코드 M&A센터, "중기부 2026년도 M&A 활성화 지원사업", 2026-03-16</li>
+                  <li>스타트업레시피, "중기부 기업승계 M&A 컨설팅 추진", 2026-03-24</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Issue 06 -->
+        <div>
+          <div class="issue-row" onclick="toggleIssue('iss06')">
+            <div class="issue-num">06</div>
+            <div class="issue-meta">
+              <div class="issue-badge">
+                <span class="issue-tag tag-eta">ETA 인사이트</span>
+                <span class="issue-date">2026. 03. 22</span>
+              </div>
+              <div class="issue-title">지루한 업종이 성공한다 — ETA 업종 선택의 역설</div>
+              <div class="issue-excerpt">유망한 업종을 고르는 게 아니다. 당신이 이길 수 있는 업종을 고르는 것이다. 이 차이가 전부다.</div>
+            </div>
+            <div class="issue-toggle" id="toggle-iss06">읽기 <span class="arrow">›</span></div>
+          </div>
+          <div class="issue-content" id="iss06">
+            <div class="issue-body">
+              <h3>지루한 업종이 성공한다</h3>
+              <p>ETA를 처음 공부하는 사람들이 가장 먼저 하는 실수가 있다. "어떤 업종이 유망한가"를 검색하는 것이다.</p>
+              <p>틀린 질문이다.</p>
+
+              <h4>질문을 바꿔야 한다</h4>
+              <p>유망한 업종을 고르는 게 아니다. 당신이 이길 수 있는 업종을 고르는 것이다.</p>
+              <p>유망한 업종에는 경쟁자가 몰린다. 인수 가격이 올라간다. 매물이 빠르게 사라진다. 운영 진입장벽도 높다. 반대로, 아무도 관심 갖지 않는 업종에는 다른 풍경이 펼쳐진다. 매물이 쌓여 있다. 가격이 낮다. 운영이 단순하다. 현금흐름이 예측 가능하다. 경쟁자가 적다.</p>
+              <p>이것이 ETA에서 "지루한 업종이 성공한다"는 역설의 근거다.</p>
+
+              <h4>국내 매물 지형 — 숫자로 보면 다르게 보인다</h4>
+              <p>모멘스투자자문이 분석한 2025년 기준 국내 ETA 매물 263개의 업종 분포:</p>
+              <ul>
+                <li>IT/SW: <strong>30.5%</strong> — 1위</li>
+                <li>제조·건설: <strong>28%</strong> — 2위</li>
+                <li>서비스업: <strong>16.9%</strong> — 3위</li>
+                <li>B2C 브랜드·커머스: <strong>15.3%</strong> — 4위</li>
+                <li>F&B: <strong>9.3%</strong> — 5위</li>
+              </ul>
+              <p>이 데이터를 보고 "IT가 30%니까 IT를 사야겠다"고 생각한다면, 함정에 빠지는 것이다. 매물이 많다는 것은 공급이 많다는 것이다. 그런데 수요도 몰린다. 제조·건설이 28%인 이유는 다르다. 이 섹터에서 매각 이유 1위는 "건강 혹은 은퇴(42.4%)"다. 사업이 나빠서가 아니라, 오너가 고령이라 운영을 이어갈 사람이 없는 것이다.</p>
+
+              <h4>업종 선택의 3가지 필터</h4>
+              <p><strong>① 매물 공급 구조</strong> — 매물이 공급되는 이유가 무엇인가</p>
+              <p>사업이 기울어서 나온 매물과, 오너가 은퇴해서 나온 매물은 다르다. ETA에서 찾아야 할 것은 후자다 — 사업은 건강한데 이어받을 사람이 없는 기업.</p>
+              <p><strong>② 운영 진입장벽</strong> — 인수 후 내가 실제로 운영할 수 있는가</p>
+              <p>ETA의 함정 중 하나는 "인수"에 집중하다가 "운영"을 간과하는 것이다. 청소 용역, 시설 관리, B2B 정기 서비스 같은 업종은 운영 구조가 단순하고 핵심 자산이 계약과 고객 관계에 있다.</p>
+              <p><strong>③ 반복 수익(Recurring Revenue)</strong> — 고객이 매달 알아서 돈을 내는 구조인가</p>
+              <p>청소 계약, 정기 유지보수, B2B 연간 서비스 계약, 소모품 정기 납품 — 이런 업종은 매달 현금흐름을 예측할 수 있다. Capital Founders의 2026년 ETA 플레이북은 이상적인 인수 대상의 특징으로 "반복 수익, 낮은 간접비, 안정적 고객 기반"을 명시한다.</p>
+
+              <h4>그래서 어떤 업종이 맞는가</h4>
+              <p>ETA에 유리한 업종의 공통점: <strong>단편화(fragmentation)가 높은 업종</strong>이다. 시장 1위 업체의 점유율이 낮고, 수많은 소규모 사업자가 나눠 운영하는 구조. 여기서는 하나의 기업을 인수한 뒤 운영을 개선하는 것만으로도 경쟁 우위를 만들 수 있다.</p>
+              <p>이 세 가지(단편화·반복수익·낮은 운영복잡도)를 충족하는 업종은 대부분 "지루하다"는 표현이 붙는다. 배관, 청소, 창고, 시설 관리, B2B 유통. 뉴스에 나오지 않는다. 그래서 경쟁자도 적다.</p>
+
+              <h4>업종을 정하기 전에 먼저 자신에게 물어야 할 3가지</h4>
+              <ol>
+                <li><strong>내가 가진 경험 중, 어떤 업종의 오너와 가장 빨리 신뢰를 쌓을 수 있는가?</strong></li>
+                <li><strong>인수 후 내가 직접 채용·팀 관리를 해야 하는 상황에서, 어떤 직군과 일하는 게 가장 익숙한가?</strong></li>
+                <li><strong>매출이 어떻게 만들어지는지를 직관적으로 이해할 수 있는가?</strong></li>
+              </ol>
+              <p>이 세 가지 질문에 답이 나오는 업종이, 유망한 업종보다 당신에게 유리한 업종이다.</p>
+
+              <blockquote>지루함은 리스크가 아니다. ETA에서 지루함은 예측 가능성의 다른 이름이다.</blockquote>
+
+              <hr style="border:none;border-top:1px solid var(--border-light);margin:2rem 0;">
+              <h4>이번 주 주목할 뉴스</h4>
+
+              <p><strong>① 100만 폐업 시대, 기업승계형 M&A가 대안으로 부상</strong> <em>(아시아타임즈, 2026-03-17)</em></p>
+              <p>2024년 국내 폐업 건수가 처음으로 100만 건을 돌파했다. 폐업 기업 중 상당수가 경영 실패가 아니라 후계자를 찾지 못해 문을 닫는다. ETA 탐색자에게 이 100만이라는 숫자는 위기가 아니라 공급 신호다.</p>
+
+              <p><strong>② 중소·벤처 M&A, 준비부터 통합까지 지원한다 — 2026년 M&A 활성화 지원사업 공고</strong> <em>(대한민국 정책브리핑, 2026-03-13)</em></p>
+              <p>중기부가 2026년도 M&A 활성화 지원사업을 공고했다. 매도·매수 기업 모두 대상으로 가치평가→실사→PMI(사후통합) 전 주기 비용을 지원한다. 벤처기업 가치평가 수수료는 최대 60%(2,000만 원 한도)까지 지원.</p>
+
+              <hr style="border:none;border-top:1px solid var(--border-light);margin:2rem 0;">
+              <h4>왜 하버드 MBA 출신들은 배관 회사를 인수하는가</h4>
+              <p>미국에서 ETA를 공부한 사람들이 처음에 받는 문화적 충격이 있다. 비즈니스 스쿨을 나온 사람들이 테크 스타트업 대신 배관 서비스 회사, HVAC(냉난방 공조), 청소 용역 기업을 인수한다는 사실이다.</p>
+              <p>비합리적으로 보인다. 그런데 숫자는 반대 방향을 가리킨다.</p>
+              <ul>
+                <li><strong>단편화가 높다.</strong> 배관 회사 1위의 시장점유율은 5%도 안 된다. 하나를 인수해서 운영을 개선하면 시장에서 두각을 나타낼 수 있다.</li>
+                <li><strong>고객이 반복 구매한다.</strong> 배관 점검 계약, 냉난방 정기 유지보수 — 한번 계약한 고객은 특별한 이유가 없으면 바꾸지 않는다.</li>
+                <li><strong>운영이 단순하다.</strong> 사람을 채용하고, 스케줄을 관리하고, 고객 관계를 유지하는 것이 핵심이다.</li>
+              </ul>
+              <blockquote>지루함은 리스크가 아니다. ETA에서 지루함은 예측 가능성의 다른 이름이다.</blockquote>
+
+              <div class="content-footer">
+                <strong>출처</strong>
+                <ul>
+                  <li>모멘스투자자문, M&A 딜 리스트 업종 분포 분석, 2025</li>
+                  <li>아시아타임즈, "100만 폐업 시대, 기업승계형 M&A가 대안으로 부상", 2026-03-17</li>
+                  <li>대한민국 정책브리핑, "중소·벤처 M&A, 준비부터 통합까지 지원", 2026-03-13</li>
+                  <li>ClearlyAcquired, "Top 5 Industries to Buy in 2025", 2025</li>
+                  <li>Capital Founders, "Entrepreneur's Acquisition Playbook", 2026</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Issue 05 -->
         <div>
           <div class="issue-row" onclick="toggleIssue('iss05')">
