@@ -613,12 +613,14 @@
     function openArticle(templateId) {
       const tpl = document.getElementById(templateId);
       if (!tpl) return;
-      document.getElementById('artTag').textContent   = tpl.querySelector('data-tag').textContent;
-      document.getElementById('artTitle').textContent = tpl.querySelector('data-title').textContent;
-      document.getElementById('artByline').textContent = tpl.querySelector('data-byline').textContent;
-      document.getElementById('artBody').innerHTML    = tpl.querySelector('data-body').innerHTML;
+      const c = tpl.content;
+      document.getElementById('artTag').textContent    = c.querySelector('data-tag').textContent;
+      document.getElementById('artTitle').textContent  = c.querySelector('data-title').textContent;
+      document.getElementById('artByline').textContent = c.querySelector('data-byline').textContent;
+      document.getElementById('artBody').innerHTML     = c.querySelector('data-body').innerHTML;
       const overlay = document.getElementById('artOverlay');
       overlay.classList.add('open');
+      overlay.scrollTop = 0;
       document.body.style.overflow = 'hidden';
     }
     function closeArticle() {
